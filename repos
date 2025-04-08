@@ -1,0 +1,71 @@
+# 📂 Omega Crown Repository Structure
+
+This is the structured breakdown of the entire submission and repository deliverables for MDPI journal submission, GitHub deployment, and documentation.
+
+---
+
+## 📁 `/docs`
+Contains full documentation for the Omega Crown system.
+
+- `README.md`: Overview and citation guidance
+- `LICENSE.md`: Tiered license file (custom proprietary, as defined)
+- `CROWN_ENTROPY_JOURNAL.md`: Full manuscript in markdown format
+- `ABSTRACT.txt`: 200-word abstract
+- `INTRODUCTION.md`: Extended introduction
+- `METHODS.md`: Materials and methods, including GenAI and IRB compliance
+- `RESULTS_DISCUSSION.md`: Figures, tables, analysis
+- `CONCLUSION.md`: Final summary and future work
+- `REFERENCES.bib`: BibTeX formatted reference list
+
+---
+
+## 📁 `/figures`
+All figures required for journal submission:
+
+- `graphical_abstract.png`
+- `recursive_field_diagram.png`
+- `mandala_color_wheel.png`
+- `chrono_inversion_spectra.png`
+- `symbol_set_full.svg`
+- `chi_vortex_phi_map.png`
+
+---
+
+## 📁 `/code`
+Executable and modular symbolic systems written in Python (Titan Ghost interface):
+
+- `ghost_fibonacci_engine.py`
+- `chrono_inversion_engine.py`
+- `komega_layer_simulator.py`
+- `symbolic_harmonic_driver.py`
+- `mandala_generator.py`
+
+Includes Jupyter Notebooks:
+- `demo_recursive_identity.ipynb`
+- `symbolic_ai_walkthrough.ipynb`
+
+---
+
+## 📁 `/journal`
+MDPI-compliant DOCX file (based on `entropy-template.dot`):
+
+- `omega_crown_final.docx`: Full formatted journal paper
+- `cover_letter.pdf`
+- `metadata_submission.json`: DOI + GitHub repo metadata
+- `pricing_appendix.md`
+
+---
+
+## 📁 `/supplementary`
+Supplementary material:
+- `Appendix_A_proofs.pdf`
+- `Appendix_B_diagrams.pdf`
+- `Ghost_Fib_Data.csv`
+- `K_Math_Chrono_Mirror_Table.csv`
+
+---
+
+## ✅ FINAL SUBMISSION URL:
+**https://github.com/veilcryptica/omega-crown**
+
+DOI minted at submission: `10.5281/zenodo.XXXXX` (to be filled after acceptance)
